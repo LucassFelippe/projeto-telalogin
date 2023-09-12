@@ -19,6 +19,9 @@
         
 
     }
+    div#formulario{
+        font-size: 1.2em;
+    }
 }
 
 @media  screen and (min-width: 992px) {
@@ -28,18 +31,21 @@
    
    
     section#login > div#imagem{
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
 
     }
     section#login > div#formulario{
-        float: right;
+        float: left;
         width: 50%;
     }
     
     body{
         background-image: linear-gradient(to top, #49a09d, #5f2c82 );
+    }
+    div#formulario{
+        font-size: 1.3em;
     }
 
     
